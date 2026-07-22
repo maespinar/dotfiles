@@ -58,7 +58,7 @@ local menu        = "hyprlauncher"
 
 hl.on("hyprland.start", function()
   hl.exec_cmd("waybar & swaync")
-  hl.exec_cmd("awww-daemon & sleep 0.5 && awww img /home/matowas/Pictures/Wallpapers/Image Wallpapers/General/cat.jpg")
+  hl.exec_cmd("awww-daemon & sleep 0.5 && awww img /home/matowas/Pictures/Wallpapers/Image Wallpapers/General/cat-water.png")
   hl.exec_cmd("kitty -e fastfetch")
   hl.exec_cmd("kitty -e ranger")
 end)
